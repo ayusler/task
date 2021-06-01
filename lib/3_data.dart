@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:http/http.dart' as http;
+import 'package:task/4_currency.dart';
 import 'package:task/mobx_class.dart';
 
 import 'constant.dart';
@@ -62,7 +63,7 @@ get()async{
                     Navigator.pop(context);
                   },
                   function2: (){
-                    // Navigator.push(context, route)
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => Currency()));
                   },
                   text1: "Page 2",
                   text2: "Page 4",
