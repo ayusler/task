@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import '3. data.dart';
+import '3_data.dart';
 import 'constant.dart';
 
 class Time extends StatelessWidget {
